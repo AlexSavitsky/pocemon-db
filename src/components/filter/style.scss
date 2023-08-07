@@ -1,0 +1,32 @@
+.filter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+
+  .form-control {
+    color: red;
+  }
+
+  #multiple-chip-label{
+    font-size: 1.3rem;
+  }
+
+  .filter-clear-btn{
+    margin-left: 10px;
+    padding: .9rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid #e0e0e0;
+    transition: 0.3s transform;
+
+    &:hover{
+      transform: scale(1.06);
+      border: 1px solid black;
+    }
+
+    &:active{
+      background-color: rgb(233, 233, 233);
+    }
+  }
+}
