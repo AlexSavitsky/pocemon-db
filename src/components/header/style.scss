@@ -34,7 +34,7 @@ $pokemons: caterpie, weedle, beedrill, pidgey, spearow, ekans, sandshrew,
       opacity: 0;
 
       i {
-        background: url("http://files.simey.me/pokonami/sprite.png");
+        background: url("../../assets/sprite.png");
         background-repeat: no-repeat;
         display: block;
         width: 28px;
@@ -43,7 +43,7 @@ $pokemons: caterpie, weedle, beedrill, pidgey, spearow, ekans, sandshrew,
 
       .quote {
         position: absolute;
-        background: url("http://files.simey.me/pokonami/sprite.png");
+        background: url("../../assets/sprite.png");
         background-repeat: no-repeat;
         display: block;
         width: 15px;
